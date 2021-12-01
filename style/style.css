@@ -82,7 +82,6 @@ span{
 section.linking {
     background-image: url(/images/home.jpg);
     background-size: cover;
-    height: 600px;
 }
 
 nav .container-fluid{
@@ -119,6 +118,10 @@ nav .navbar{
     font-size: 18px;
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
+}
+
+#services img{
+    padding-left: 55px;
 }
 
 #services .card-text {
@@ -160,15 +163,18 @@ nav .navbar{
     border: 2px solid gold;
     border-radius: 20px;
     padding: 10px;
+    margin-left: 48px;
 }
 .fa-envelope{
     border: 2px solid gold;
     border-radius: 20px;
+    margin-left: 48px;
     padding: 10px;
 }
 .fa-phone-alt{
     border: 2px solid gold;
     border-radius: 20px;
+    margin-left: 48px;
     padding: 10px;
 }
 
@@ -177,14 +183,42 @@ nav .navbar{
     margin-top: 100px;
 }
 
-.supernova{
-    background-color: none;
+
+
+/* media qures */
+@media only screen and (max-device-width: 480px) {
+    .right-content{
+        margin-top: 30px!important;
+        text-align: center;
+    }
+    .right-content h5 {
+        font-size: 15px;
+    }
+    .serviceImage{
+        display: none;
+    }
+    #services .card {
+        text-align: center;
+    }
+    #services img{
+        padding-left: 0px;
+    }
+    .accordion-body{
+        text-align: left;
+    }
+    .fa-map-marker{
+        margin-left: 0px;
+    }
+    .fa-envelope{
+        margin-left: 0px;
+    }
+    .fa-phone-alt{
+        margin-left: 0px;
+    }
+    #contact-from {
+        text-align: center;
+    }
+    #contact-from strong{
+        font-size: large;
+    }
 }
-
-/* #Projects{
-    margin-bottom: 200px;
-} */
-
-/* #about-me{
-    margin-top: 200px;
-} */
