@@ -1,3 +1,4 @@
+new WOW().init();
 
 
 $(document).ready(function () {
@@ -16,6 +17,5 @@ $(document).ready(function () {
       }
     }
   })
-
-
+    
 });
