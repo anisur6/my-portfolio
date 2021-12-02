@@ -221,4 +221,27 @@ nav .navbar{
     #contact-from strong{
         font-size: large;
     }
+
+    #scrollTop i{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        font-size: 7px;
+        color: #ffffff;
+        background-color: rgb(255, 119, 0);
+    }
+    
+}
+
+#scrollTop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #ffffff;
+    background-color: rgb(255, 119, 0);
+}
+
+footer{
+    background-image: url(/images/home.jpg);
+    background-size: cover;
 }
