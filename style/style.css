@@ -184,6 +184,12 @@ nav .navbar{
 }
 
 
+/* skill section start  */
+#skills{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 
 /* media qures */
 @media only screen and (max-device-width: 480px) {
